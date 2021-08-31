@@ -14,6 +14,6 @@ Install `display-updates` using composer.
     
 ## License
 
-Copyright 2019 Nikhil Chavan
+Copyright 2021 Nikhil Chavan
 
 Licensed under the GPL v3 or Later license.
