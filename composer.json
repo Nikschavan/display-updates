@@ -1,0 +1,27 @@
+
+{
+    "name": "nikschavan/display-updates",
+    "type": "wordpress-plugin",
+    "description": "Display plugin update notifications for sites using constant `DISALLOW_FILE_MODS`",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Nikhil Chavan",
+            "email": "email@nikhilchavan.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "^1.11"
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+        "phpcompatibility/phpcompatibility-wp": "^2.1",
+        "wp-coding-standards/wpcs": "^2.3"
+    },
+    "minimum-stability": "stable",
+    "scripts": {
+        "format": "vendor/bin/phpcbf",
+        "lint": "vendor/bin/phpcs",
+        "test": "vendor/bin/phpunit"
+    }
+}
